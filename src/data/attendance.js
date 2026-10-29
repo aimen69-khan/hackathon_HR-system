@@ -19,7 +19,7 @@ export const attendanceTrend = Array.from({ length: 14 }, (_, i) => {
   return { name: d.toLocaleDateString('en', { month: 'short', day: 'numeric' }), rate: 88 + ((i * 7) % 9) };
 });
 
-// Deterministic mock status for a day of a month (used by AttendanceCalendar).
+
 export function monthStatuses(year, month, seed = 1) {
   const out = {};
   const now = new Date();

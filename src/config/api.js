@@ -1,4 +1,4 @@
-export const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+export const API_URL = import.meta.env.VITE_API_URL || 'https://hackathon-hr-system-backend.vercel.app/api';
 export const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
 export const getHeaders = () => {
